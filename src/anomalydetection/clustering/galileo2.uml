@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_j887cBh5EeSQ0sGC_4Iyxw" name="galileo2">
+    <eAnnotations xmi:id="_kXF5wBh5EeSQ0sGC_4Iyxw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_kXF5wRh5EeSQ0sGC_4Iyxw" source="codegen">
+        <details xmi:id="_kXF5whh5EeSQ0sGC_4Iyxw" key="codegenDirectory" value="/galileo/src"/>
+      </contents>
+    </eAnnotations>
+    <profileApplication xmi:id="_kXHH4Bh5EeSQ0sGC_4Iyxw">
+      <eAnnotations xmi:id="_kXHH4Rh5EeSQ0sGC_4Iyxw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_kXHu8Bh5EeSQ0sGC_4Iyxw" base_Package="_j887cBh5EeSQ0sGC_4Iyxw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+</xmi:XMI>
