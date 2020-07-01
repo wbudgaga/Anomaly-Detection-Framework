@@ -1,1 +1,1 @@
-# Scalable Framework for Anomaly Detection over Time-Series Geospatial Data Streams
+# A Framework for Scalable Real-Time Anomaly Detection Over Voluminous, Geospatial Data Streams 
