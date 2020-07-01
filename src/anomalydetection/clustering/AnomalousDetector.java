@@ -11,13 +11,13 @@ public abstract class AnomalousDetector {
 	public static final int OFFLINE = 1;
 	
 	protected ThreadPoolManager threadPool; 
-	private   	int 			detectingMode	= ONLINE;
-	private		String 			processID; 	
+	private   	int 		detectingMode		= ONLINE;
+	private		String 		processID; 	
 	private 	volatile long 	receivedSamples		= 0;
 	private  	volatile long 	processedSamples	= 0;
-	protected 	Object 			lock 				= new Object();
+	protected 	Object 		lock 			= new Object();
 	protected 	DetectorMaster 	master;
-	protected  	Process			process;
+	protected  	Process		process;
 
 	public AnomalousDetector(DetectorMaster master, String pID){
 		setProcessID(pID);
