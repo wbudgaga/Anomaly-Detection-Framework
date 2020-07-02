@@ -16,9 +16,9 @@ Our approach ensures that available cores and execution pipelines are used effic
 The primary concern of the **anomaly detector** is to collect training data from the coordinator, build a model for the received data that cover a finer-grained geospatial scope, and then use the model to detect observations whose behaviors are outside the observed norm. Collecting the training data and training a model is done automatically for each detector regardless of the actual implementation of the anomaly detector instances. Each anomaly detector operates in three phases. It starts in the data collection phase, where the detector collects observations in memory and transitions to the training phase when the amount of data collected reaches a configurable threshold. The coordinator can also override the threshold to begin training immediately if the particular problem warrants such an action. In the training phase, a training task is created and queued to the thread pool. While the training task is running in a separate thread, observations are buffered for classification until the training process is complete. Finally, in the classification stage, the models are used to classify incoming data. 
 
 ### Figures
-[Anomaly Detector](https://user-images.githubusercontent.com/40745827/86398670-37ab9f80-bc63-11ea-9f43-8ea780f6355e.png)
+![Anomaly Detector](https://user-images.githubusercontent.com/40745827/86398670-37ab9f80-bc63-11ea-9f43-8ea780f6355e.png)
 
-[Intergration of the anomaly detection framework in the storage nodes of the distributed storage system (Galileo)](https://user-images.githubusercontent.com/40745827/86398672-38dccc80-bc63-11ea-857b-5ba6f1cd0f7d.png)
+![Intergration of the anomaly detection framework in the storage nodes of the distributed storage system (Galileo)](https://user-images.githubusercontent.com/40745827/86398672-38dccc80-bc63-11ea-857b-5ba6f1cd0f7d.png)
 
 ![The anomaly detection processing cycle](https://user-images.githubusercontent.com/40745827/86398678-3a0df980-bc63-11ea-940f-48a8f7931d00.png)
 
