@@ -29,15 +29,15 @@ The primary concern of the **anomaly detector** is to collect training data from
 
 
 ## Execution
-- To control the behavior of the framework, you have to change the configuration in ** anomalydetection.clustering.Setting **
+- To control the behavior of the framework, you have to change the configuration in **anomalydetection.clustering.Setting**
 
-- To use the framework, you need to launch ** anomalydetection.peers.Server ** on each machine.
+- To use the framework, you need to launch **anomalydetection.peers.Server** on each machine.
 
-- The ** anomalydetection.peers.Server ** will initialize the coordinator, ** anomalydetection.clustering.DetectorMaster **, that starts listening on its port for incoming streams.
+- The **anomalydetection.peers.Server** will initialize the coordinator, **anomalydetection.clustering.DetectorMaster**, that starts listening on its port for incoming streams.
 
-- The coordinator,  ** anomalydetection.clustering.DetectorMaster **, creates an instance of an anomaly detector, ** anomalydetection.clustering.AnomalousDetector** for each new geographic region. 
+- The coordinator,  **anomalydetection.clustering.DetectorMaster**, creates an instance of an anomaly detector, **anomalydetection.clustering.AnomalousDetector** for each new geographic region. 
 
-- The coordinator,  ** anomalydetection.clustering.DetectorMaster **, forward the received observations into anomaly detectors (** anomalydetection.clustering.DetectorMaster **) that responsible for the observations' regions.
+- The coordinator,  **anomalydetection.clustering.DetectorMaster**, forward the received observations into anomaly detectors (**anomalydetection.clustering.DetectorMaster**) that responsible for the observations' regions.
 
 - The anomaly detector performs the following tasks for the received observations based on its status
   - If the status is the *collection phase*, the observations will be buffered in memory to be used to train a model
