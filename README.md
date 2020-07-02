@@ -17,8 +17,11 @@ The primary concern of the **anomaly detector** is to collect training data from
 
 ### Figures
 [Anomaly Detector](https://github.com/wbudgaga/Anomaly-Detection-Framework/files/4866025/anomalyDetector.pdf)
+
 [Intergration of the anomaly detection framework in the storage nodes of the distributed storage system (Galileo)](https://github.com/wbudgaga/Anomaly-Detection-Framework/files/4866058/anomalyDetectionFramework.pdf)
-[The anomaly detection processing cycle](https://github.com/wbudgaga/Anomaly-Detection-Framework/files/4866068/anomalyDetectionCycle.pdf)
+
+![The anomaly detection processing cycle](https://github.com/wbudgaga/Anomaly-Detection-Framework/files/4866068/anomalyDetectionCycle.pdf)
+
 ![The interaction between the coordinator and the anomaly detectors](https://user-images.githubusercontent.com/40745827/86397779-b1db2480-bc61-11ea-8076-32f9aaa20480.png)
 
 
