@@ -15,4 +15,6 @@ Our approach ensures that available cores and execution pipelines are used effic
 
 The primary concern of the **anomaly detector** is to collect training data from the coordinator, build a model for the received data that cover a finer-grained geospatial scope, and then use the model to detect observations whose behaviors are outside the observed norm. Collecting the training data and training a model is done automatically for each detector regardless of the actual implementation of the anomaly detector instances. Each anomaly detector operates in three phases. It starts in the data collection phase, where the detector collects observations in memory and transitions to the training phase when the amount of data collected reaches a configurable threshold. The coordinator can also override the threshold to begin training immediately if the particular problem warrants such an action. In the training phase, a training task is created and queued to the thread pool. While the training task is running in a separate thread, observations are buffered for classification until the training process is complete. Finally, in the classification stage, the models are used to classify incoming data. 
 
+[anomalyDetector.pdf](https://github.com/wbudgaga/Anomaly-Detection-Framework/files/4866025/anomalyDetector.pdf)
+## Execution
 
