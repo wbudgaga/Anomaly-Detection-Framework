@@ -17,16 +17,17 @@ The primary concern of the **anomaly detector** is to collect training data from
 
 ### Intergration of the anomaly detection framework in the storage nodes of the distributed storage system (Galileo)
 
-<img src="https://user-images.githubusercontent.com/40745827/86398672-38dccc80-bc63-11ea-857b-5ba6f1cd0f7d.png" width="600" height="300">
+<img src="https://user-images.githubusercontent.com/40745827/86398672-38dccc80-bc63-11ea-857b-5ba6f1cd0f7d.png" width="800" height="400">
 
 ### The interaction between the coordinator and the anomaly detectors
-![The interaction between the coordinator and the anomaly detectors](https://user-images.githubusercontent.com/40745827/86397779-b1db2480-bc61-11ea-8076-32f9aaa20480.png){:height="700px" width="400px"}
+<img src="https://user-images.githubusercontent.com/40745827/86397779-b1db2480-bc61-11ea-8076-32f9aaa20480.png" width="500" height="300">
+
 
 ### Anomaly Detector
-![Anomaly Detector](https://user-images.githubusercontent.com/40745827/86398670-37ab9f80-bc63-11ea-9f43-8ea780f6355e.png)
+<img src="https://user-images.githubusercontent.com/40745827/86398670-37ab9f80-bc63-11ea-9f43-8ea780f6355e.png" width="600" height="300">
 
 ### The anomaly detection processing cycle
-![The anomaly detection processing cycle](https://user-images.githubusercontent.com/40745827/86398678-3a0df980-bc63-11ea-940f-48a8f7931d00.png)
+<img src="https://user-images.githubusercontent.com/40745827/86398678-3a0df980-bc63-11ea-940f-48a8f7931d00.png" width="600" height="400">
 
 
 ## Execution
